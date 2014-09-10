@@ -21,6 +21,7 @@
 		51D57AAF19C0349D005B65C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D57A9119C0349C005B65C7 /* UIKit.framework */; };
 		51D57AB719C0349D005B65C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51D57AB519C0349D005B65C7 /* InfoPlist.strings */; };
 		51D57AB919C0349D005B65C7 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D57AB819C0349D005B65C7 /* Git_TestTests.m */; };
+		51D57AC419C037C4005B65C7 /* JPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D57AC319C037C4005B65C7 /* JPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		51D57AB419C0349D005B65C7 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		51D57AB619C0349D005B65C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51D57AB819C0349D005B65C7 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		51D57AC219C037C4005B65C7 /* JPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPTest.h; sourceTree = "<group>"; };
+		51D57AC319C037C4005B65C7 /* JPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		51D57A8119C0349C005B65C7 = {
 			isa = PBXGroup;
 			children = (
+				51D57AC219C037C4005B65C7 /* JPTest.h */,
+				51D57AC319C037C4005B65C7 /* JPTest.m */,
 				51D57A9319C0349C005B65C7 /* Git Test */,
 				51D57AB219C0349D005B65C7 /* Git TestTests */,
 				51D57A8C19C0349C005B65C7 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D57A9E19C0349C005B65C7 /* JPAppDelegate.m in Sources */,
+				51D57AC419C037C4005B65C7 /* JPTest.m in Sources */,
 				51D57AA419C0349C005B65C7 /* JPViewController.m in Sources */,
 				51D57A9A19C0349C005B65C7 /* main.m in Sources */,
 			);
